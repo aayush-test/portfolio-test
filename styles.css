@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+
+
+.main {
+    background-image: url("banner1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.logo span {
+    color: #6a0eff;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 20px;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav ul li a:hover{
+    color: #6a0eff;
+    transition: .30s;
+}
+.call-me {
+    text-decoration: none;
+    color: white;
+    background-color: #6a0eff;
+    padding: 8px 20px;
+    border-radius: 100px;
+}
+
+.call-me:hover {
+    transition: .20s;
+    background-color:#ffffff;
+    color:black;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+.content h1 {
+    color: white;
+    margin: 20px 0 ;
+    font-size: 70px;
+}
+
+.content h4 {
+    color: #6a0eff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.content h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.emailForm {
+    position: relative;
+    width: 380px;
+}
+.emailForm .email {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #6a0eff;
+    border-radius: 20px;
+    outline: none;
+}
+.email-btn {
+    display: inline-block;
+    position: absolute;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #6a0eff;
+    color: white;
+    top: 1px;
+    right: 1px;
+    font-weight: bolder;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img {
+    width: 430px;
+    height: auto;
+}
+
+.about-text {
+    width: 550px;
+}
+.main-about {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: white;
+    font-size: 74px;
+    margin-bottom: 20px;
+}
+.about-text h4 {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.about-text h4 span {
+    color: #6a0eff
+}
+.about-text p {
+    color: #d5bbff;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text button {
+    background-color: #6a0eff;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    color: white;
+    font-size:large;
+    font-weight: bolder;
+    border-radius: 20px;
+    transition: .4s;
+}
+.about-text button:hover {
+    background-color: transparent;
+    border: 2px solid #6a0eff;
+}
+.services {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 25px 35px;
+    background: #131919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    /* overflow: hidden; */
+    text-align: center;
+}
+.card img {
+    width: 80px;
+      filter: invert(100%);
+      display: block;
+      margin: 25px auto;
+}
+
+.card h5{
+    color: #6a0eff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para p {
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.para a {
+    background-color: #6a0eff;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    color: white;
+    font-size:large;
+    font-weight: bolder;
+    border-radius: 20px;
+    transition: .4s;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.para a:hover {
+    background-color: transparent;
+    border: 2px solid #6a0eff;
+}
+
+.contact-me {
+    width: 100%;
+    background-color: #191919;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me h5 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.contact-me a {
+    background-color: #6a0eff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
